@@ -7,7 +7,3 @@ resource "aws_instance" "name" {
       Name = "EC2-Server"
     }
 }
-resource "aws_s3_bucket" "name" {
-    bucket = "sib-s3-bucket"
-  
-}
