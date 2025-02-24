@@ -4,6 +4,6 @@ resource "aws_instance" "name" {
     key_name = "mumbai-key"
     availability_zone = "ap-south-1b"
     tags = {
-      Name = "server-2"
+      Name = "server-4"
     }
 }
